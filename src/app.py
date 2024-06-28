@@ -1,4 +1,4 @@
-from utils import db_connect
-engine = db_connect()
+import pandas as pd
+import seaborn as sns
 
-# your code here
+train_data = pd.read_csv('https://raw.githubusercontent.com/4GeeksAcademy/data-preprocessing-project-tutorial/main/AB_NYC_2019.csv')
